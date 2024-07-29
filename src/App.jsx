@@ -1,9 +1,9 @@
-import { useState } from "react";
+import Home from "../src/pages/Home";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-400">Hola</h1>
+      <Home />
     </>
   );
 }
