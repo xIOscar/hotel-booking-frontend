@@ -7,7 +7,8 @@ const Home = () => {
     <div>
       <Navbar />
       <HotelCTA />
-      <Footer />
+      {/* <Footer /> */}
+     
     </div>
   );
 };

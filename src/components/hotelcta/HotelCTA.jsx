@@ -37,7 +37,7 @@ const HotelCTA = () => {
   ];
   return (
     <div className="max-w-[1240px] m-auto">
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 p-4 md:p-0 md:grid-cols-4 gap-5">
         {hotels.map((hotel) => (
           <HotelCard key={hotel.id} {...hotel} />
         ))}
