@@ -12,8 +12,8 @@ This project is a frontend application for a hotel reservation system built usin
 ## **Clone the Repository**
 
 ```
-git clone https://github.com/yourusername/reservation-frontend.git
-cd reservation-frontend
+git clone https://github.com/yourusername/hotel-booking-frontend.git
+cd hotel-booking-frontend
 ```
 ## Install Dependencies
 
