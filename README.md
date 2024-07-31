@@ -1,8 +1,22 @@
-# React + Vite
+# Reservation System Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a frontend application for a hotel reservation system built using React.js. The application allows users to make reservations by providing necessary details and sends the data to a backend service for processing. The application is designed to be simple, user-friendly.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Reservation Form**: A form for users to enter their reservation details including name, email, phone, location, check-in, check-out dates, and number of guests.
+- **Form Validation**: Basic client-side validation to ensure all required fields are filled out correctly.
+- **Data Submission**: Sends the reservation data to a backend service via HTTP POST request using Axios.
+- **Notification System**: Displays success or error messages based on the outcome of the reservation request.
+
+## Install Dependencies
+
+```
+npm install
+```
+
+## Run the Application
+
+```
+node --run dev
+```
