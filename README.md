@@ -9,6 +9,12 @@ This project is a frontend application for a hotel reservation system built usin
 - **Data Submission**: Sends the reservation data to a backend service via HTTP POST request using Axios.
 - **Notification System**: Displays success or error messages based on the outcome of the reservation request.
 
+## **Clone the Repository**
+
+```
+git clone https://github.com/yourusername/reservation-frontend.git
+cd reservation-frontend
+```
 ## Install Dependencies
 
 ```
